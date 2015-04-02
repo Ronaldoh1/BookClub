@@ -10,11 +10,18 @@
 		F2C5F4681ACCA2E700C32A98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F4671ACCA2E700C32A98 /* main.m */; };
 		F2C5F46B1ACCA2E700C32A98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F46A1ACCA2E700C32A98 /* AppDelegate.m */; };
 		F2C5F46E1ACCA2E700C32A98 /* BookClub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F46C1ACCA2E700C32A98 /* BookClub.xcdatamodeld */; };
-		F2C5F4711ACCA2E700C32A98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F4701ACCA2E700C32A98 /* ViewController.m */; };
+		F2C5F4711ACCA2E700C32A98 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F4701ACCA2E700C32A98 /* FriendViewController.m */; };
 		F2C5F4741ACCA2E700C32A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C5F4721ACCA2E700C32A98 /* Main.storyboard */; };
 		F2C5F4761ACCA2E700C32A98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C5F4751ACCA2E700C32A98 /* Images.xcassets */; };
 		F2C5F4791ACCA2E700C32A98 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C5F4771ACCA2E700C32A98 /* LaunchScreen.xib */; };
 		F2C5F4851ACCA2E700C32A98 /* BookClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F4841ACCA2E700C32A98 /* BookClubTests.m */; };
+		F2C5F4901ACD422300C32A98 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F48F1ACD422300C32A98 /* Friend.m */; };
+		F2C5F4931ACD422300C32A98 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F4921ACD422300C32A98 /* Comment.m */; };
+		F2C5F4961ACD422300C32A98 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F4951ACD422300C32A98 /* Book.m */; };
+		F2C5F49A1ACD531600C32A98 /* FriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F4991ACD531600C32A98 /* FriendListViewController.m */; };
+		F2C5F49D1ACD8F5900C32A98 /* FriendDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F49C1ACD8F5900C32A98 /* FriendDetailViewController.m */; };
+		F2C5F4A01ACD8FA300C32A98 /* AddBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F49F1ACD8FA300C32A98 /* AddBookViewController.m */; };
+		F2C5F4A31ACDA0DD00C32A98 /* CommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5F4A21ACDA0DD00C32A98 /* CommentsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +41,28 @@
 		F2C5F4691ACCA2E700C32A98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2C5F46A1ACCA2E700C32A98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F2C5F46D1ACCA2E700C32A98 /* BookClub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookClub.xcdatamodel; sourceTree = "<group>"; };
-		F2C5F46F1ACCA2E700C32A98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2C5F4701ACCA2E700C32A98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2C5F46F1ACCA2E700C32A98 /* FriendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		F2C5F4701ACCA2E700C32A98 /* FriendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
 		F2C5F4731ACCA2E700C32A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2C5F4751ACCA2E700C32A98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2C5F4781ACCA2E700C32A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F2C5F47E1ACCA2E700C32A98 /* BookClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C5F4831ACCA2E700C32A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C5F4841ACCA2E700C32A98 /* BookClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookClubTests.m; sourceTree = "<group>"; };
+		F2C5F48E1ACD422300C32A98 /* Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Friend.h; path = "BookClub/Data Model Objects/Friend.h"; sourceTree = "<group>"; };
+		F2C5F48F1ACD422300C32A98 /* Friend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Friend.m; path = "BookClub/Data Model Objects/Friend.m"; sourceTree = "<group>"; };
+		F2C5F4911ACD422300C32A98 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Comment.h; path = "BookClub/Data Model Objects/Comment.h"; sourceTree = "<group>"; };
+		F2C5F4921ACD422300C32A98 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Comment.m; path = "BookClub/Data Model Objects/Comment.m"; sourceTree = "<group>"; };
+		F2C5F4941ACD422300C32A98 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Book.h; path = "BookClub/Data Model Objects/Book.h"; sourceTree = "<group>"; };
+		F2C5F4951ACD422300C32A98 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Book.m; path = "BookClub/Data Model Objects/Book.m"; sourceTree = "<group>"; };
+		F2C5F4981ACD531600C32A98 /* FriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendListViewController.h; sourceTree = "<group>"; };
+		F2C5F4991ACD531600C32A98 /* FriendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendListViewController.m; sourceTree = "<group>"; };
+		F2C5F49B1ACD8F5900C32A98 /* FriendDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendDetailViewController.h; sourceTree = "<group>"; };
+		F2C5F49C1ACD8F5900C32A98 /* FriendDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendDetailViewController.m; sourceTree = "<group>"; };
+		F2C5F49E1ACD8FA300C32A98 /* AddBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBookViewController.h; sourceTree = "<group>"; };
+		F2C5F49F1ACD8FA300C32A98 /* AddBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBookViewController.m; sourceTree = "<group>"; };
+		F2C5F4A11ACDA0DD00C32A98 /* CommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsViewController.h; sourceTree = "<group>"; };
+		F2C5F4A21ACDA0DD00C32A98 /* CommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +106,21 @@
 			children = (
 				F2C5F4691ACCA2E700C32A98 /* AppDelegate.h */,
 				F2C5F46A1ACCA2E700C32A98 /* AppDelegate.m */,
-				F2C5F46F1ACCA2E700C32A98 /* ViewController.h */,
-				F2C5F4701ACCA2E700C32A98 /* ViewController.m */,
+				F2C5F46F1ACCA2E700C32A98 /* FriendViewController.h */,
+				F2C5F4701ACCA2E700C32A98 /* FriendViewController.m */,
+				F2C5F4981ACD531600C32A98 /* FriendListViewController.h */,
+				F2C5F4991ACD531600C32A98 /* FriendListViewController.m */,
+				F2C5F49B1ACD8F5900C32A98 /* FriendDetailViewController.h */,
+				F2C5F49C1ACD8F5900C32A98 /* FriendDetailViewController.m */,
+				F2C5F49E1ACD8FA300C32A98 /* AddBookViewController.h */,
+				F2C5F49F1ACD8FA300C32A98 /* AddBookViewController.m */,
+				F2C5F4A11ACDA0DD00C32A98 /* CommentsViewController.h */,
+				F2C5F4A21ACDA0DD00C32A98 /* CommentsViewController.m */,
 				F2C5F4721ACCA2E700C32A98 /* Main.storyboard */,
 				F2C5F4751ACCA2E700C32A98 /* Images.xcassets */,
 				F2C5F4771ACCA2E700C32A98 /* LaunchScreen.xib */,
 				F2C5F46C1ACCA2E700C32A98 /* BookClub.xcdatamodeld */,
+				F2C5F4971ACD423A00C32A98 /* Data Model Objects */,
 				F2C5F4651ACCA2E700C32A98 /* Supporting Files */,
 			);
 			path = BookClub;
@@ -120,6 +150,20 @@
 				F2C5F4831ACCA2E700C32A98 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2C5F4971ACD423A00C32A98 /* Data Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				F2C5F4941ACD422300C32A98 /* Book.h */,
+				F2C5F4951ACD422300C32A98 /* Book.m */,
+				F2C5F4911ACD422300C32A98 /* Comment.h */,
+				F2C5F4921ACD422300C32A98 /* Comment.m */,
+				F2C5F48E1ACD422300C32A98 /* Friend.h */,
+				F2C5F48F1ACD422300C32A98 /* Friend.m */,
+			);
+			name = "Data Model Objects";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +266,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C5F49A1ACD531600C32A98 /* FriendListViewController.m in Sources */,
 				F2C5F46B1ACCA2E700C32A98 /* AppDelegate.m in Sources */,
+				F2C5F4A31ACDA0DD00C32A98 /* CommentsViewController.m in Sources */,
+				F2C5F4931ACD422300C32A98 /* Comment.m in Sources */,
+				F2C5F4A01ACD8FA300C32A98 /* AddBookViewController.m in Sources */,
+				F2C5F4901ACD422300C32A98 /* Friend.m in Sources */,
+				F2C5F49D1ACD8F5900C32A98 /* FriendDetailViewController.m in Sources */,
 				F2C5F46E1ACCA2E700C32A98 /* BookClub.xcdatamodeld in Sources */,
-				F2C5F4711ACCA2E700C32A98 /* ViewController.m in Sources */,
+				F2C5F4711ACCA2E700C32A98 /* FriendViewController.m in Sources */,
+				F2C5F4961ACD422300C32A98 /* Book.m in Sources */,
 				F2C5F4681ACCA2E700C32A98 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
